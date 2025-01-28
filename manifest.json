@@ -1,0 +1,34 @@
+{
+    "name": "A Minus AI Search Extension",
+    "description": "Adds -AI to search bar when searching for results in the url search bar.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "noAI.html",
+      "default_icon": "images/icon-128.png"
+    },
+
+    "icons": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-64.png",
+      "128": "images/icon-128.png"
+    },
+    "background": {
+    "service_worker": "background.js"
+    },
+    "declarative_net_request": {
+      "rule_resources" : [{
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules_1.json"
+      }
+      ]
+    },
+    "host_permissions": [
+      "https://*.google.com/*"
+    ],
+    "permissions": [
+      "declarativeNetRequest"
+    ]
+}

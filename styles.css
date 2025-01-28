@@ -1,0 +1,17 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+  }
+
+.popup {
+    display: flex;
+    width: 300px;
+    justify-items: center;
+    text-align: left;
+    font-weight: lighter;
+    margin: 5px;
+}
+
+.img-adjust {
+    margin: 3px;
+}
