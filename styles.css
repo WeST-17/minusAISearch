@@ -5,6 +5,7 @@ body {
 
 .popup {
     display: flex;
+    flex-direction: column;
     width: 300px;
     justify-items: center;
     text-align: left;

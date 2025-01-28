@@ -1,6 +1,6 @@
 {
-    "name": "A Minus AI Search Extension",
-    "description": "Adds -AI to search bar when searching for results in the url search bar.",
+    "name": "Minus AI Google Search Extension",
+    "description": "Uses udm=14 to remove the Google AI overview when searching for results in the url search bar.",
     "version": "1.0",
     "manifest_version": 3,
     "action": {
